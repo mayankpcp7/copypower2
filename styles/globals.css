@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+.ff_montserat {
+  font-family: "Montserrat";
+}
+
+.ff_opensans {
+  font-family: "Open Sans";
+}
+
+/* @font-face {
+  font-family: "Matter";
+  src: url(../src/assets/fonts/Matter/Matter-Regular.ttf);
+  src: url(../src/assets/fonts/Matter/Matter-Regular.ttf);
+  src: url(../src/assets/fonts/Matter/Matter-Medium.ttf);
+  src: url(..src/assets/fonts/Matter/Matter-SemiBold.ttf);
+} */
+.box_shadow:hover {
+  box-shadow: -1px 1px 22px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 1px 22px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 22px 0px rgba(0, 0, 0, 0.75);
+}
+.case_boxshadow {
+  box-shadow: 4px 8px 16px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card_bg {
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.20);
+}
+
+.card_shadow {
+  box-shadow: 4px 4px 50px 12px rgba(0, 0, 0, 0.04);
+}
+.skyblue_bg {
+  background: url(../public/images/webp/skyblue_bg.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
