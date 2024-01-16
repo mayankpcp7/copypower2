@@ -12,17 +12,17 @@ const Footer = () => {
                         <div className='w-full sm:max-w-[272px]'>
                             <ul>
                                 <li className='text-white font-Matter text-[20px] font-semibold leading-[160%]'>Services</li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'><a href="#">Email Marketing Strategy & Audit</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Email Campaign Management</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Email Template Production</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Email Deliverability</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">ESP Vendor Evaluation & Migration</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'>Email Marketing Strategy & Audit</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Email Campaign Management</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Email Template Production</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Email Deliverability</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>ESP Vendor Evaluation & Migration</a></li>
                             </ul>
 
                             <ul className='mt-10 sm:mt-[109px]'>
                                 <li className='text-white font-Matter text-[20px] font-semibold leading-[160%]'>Verticals</li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'><a href="#">B2B Email Marketing Agency</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3 whitespace-nowrap'><a href="#">E-commerce Email Marketing Agency</a></li>
+                                <li><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5' href="#">B2B Email Marketing Agency</a></li>
+                                <li><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3 whitespace-nowrap' href="#">E-commerce Email Marketing Agency</a></li>
 
                             </ul>
                         </div>
@@ -30,36 +30,36 @@ const Footer = () => {
                         <div className='sm:max-w-[273px]'>
                             <ul>
                                 <li className='text-white font-Matter text-[20px] font-semibold leading-[160%]'>Platforms</li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'><a href="#">Klaviyo Email Experts</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Hubspot Email Experts</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Mailchimp Email Experts</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">SendinBlue Email Experts</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Aweber Email Markeing Experts</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Active Campaign Email Experts</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Infusionsoft Email Experts</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Campaign Monitor Email Experts</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Braze Email Expert</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Omnisend Emaill Experts</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Keap Emall Experts</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'>Klaviyo Email Experts</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Hubspot Email Experts</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Mailchimp Email Experts</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>SendinBlue Email Experts</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Aweber Email Markeing Experts</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Active Campaign Email Experts</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Infusionsoft Email Experts</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Campaign Monitor Email Experts</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Braze Email Expert</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Omnisend Emaill Experts</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Keap Emall Experts</a></li>
                             </ul>
                         </div>
 
                         <div className='w-full sm:max-w-[171px] xl:ps-3'>
                             <ul>
                                 <li className='text-white font-Matter text-[20px] font-semibold leading-[160%]'>About</li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'><a href="#">Who we are?</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Testimonials</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Careers</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">Contact us</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'><a href="#">For Agencies</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'>Who we are?</a></li>
+                                <li><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3' href="#">Testimonials</a></li>
+                                <li><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3' href="#">Careers</a></li>
+                                <li><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3' href="#">Contact us</a></li>
+                                <li><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3' href="#">For Agencies</a></li>
                             </ul>
 
                             <ul className='mt-10'>
                                 <li className='text-white font-Matter text-[20px] font-semibold leading-[160%]'>Resources</li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'><a href="#">Blog</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3 whitespace-nowrap'><a href="#">Case Studies</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3 whitespace-nowrap'><a href="#">Email Marketing Guides</a></li>
-                                <li className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3 whitespace-nowrap'><a href="#">Ebooks & Downloads</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'>Blog</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3 whitespace-nowrap'>Case Studies</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3 whitespace-nowrap'>Email Marketing Guides</a></li>
+                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3 whitespace-nowrap'>Ebooks & Downloads</a></li>
 
                             </ul>
                         </div>

@@ -60,7 +60,7 @@ const Industries = () => {
     <div className="overflow-hidden bg-white relative z-[1]">
       <div className="my-12 md:my-[60px] lg:my-20 xl:my-[123px]">
         <div className="max-w-[1200px] mx-auto px-3">
-          <h2 className="text-center font-Matter text-[40px] font-semibold leading-[135%] tracking-[-0.8px] text-main">
+          <h2 className="text-center font-Matter text-[32px] md:text-[35px] lg:text-[40px] font-semibold leading-[135%] tracking-[-0.8px] text-main">
             Industries & Verticals
           </h2>
           <div className="flex items-center justify-center mt-3 md:mt-5">
