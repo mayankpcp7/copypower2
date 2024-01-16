@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Footer = () => {
     return (
         <div className='overflow-hidden'>
-            <div className='bg-secondblack pt-12 md:pt-[69px] pb-5 md:pb-[32px] relative z-[10]'>
+            <div className='bg-secondblack pt-12 md:pt-[69px] pb-5 md:pb-[32px] relative z-[1]'>
                 <div className='max-w-[1140px] mx-auto px-3'>
                     <div className='flex justify-between gap-10 flex-wrap'>
 

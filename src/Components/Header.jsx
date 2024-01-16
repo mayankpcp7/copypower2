@@ -4,19 +4,12 @@ import headerimg from "../../public/images/webp/headerimg.webp";
 import headerupperellipse from "../../public/images/webp/ellipse_upper_img.webp";
 import headerrightellipse from "../../public/images/webp/headerrightellipse.webp";
 import headerredellipse from "../../public/images/webp/red_eelipse_header.webp";
-import NavBar from "./Navbar";
+import NavBar from "./MyNav";
 const Header = () => {
   return (
     <>
       <header className="2xl:min-h-screen flex flex-col justify-center relative">
-        <Image
-          className="absolute top-[-40%] z-0 start-[0%]"
-          src={headerupperellipse}
-          width={1316}
-          height={1182}
-          alt="haederimg"
-        ></Image>
-        <NavBar/>
+
         <main className="flex flex-col 2xl:mt-0 mt-[97px] items-center jsutify-center pb-[80px] md:pb-[123px] 2xl:pb-0">
           <div className="container">
             <div className="flex flex-col items-center  relative">

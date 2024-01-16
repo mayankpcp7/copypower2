@@ -10,8 +10,8 @@ import austim from "../../public/images/webp/autim360.webp";
 import ustherapy from "../../public/images/webp/ustherapy.webp";
 const Brands = () => {
   return (
-    <>
-      <section className="py-[100px]">
+    <section className="overflow-hidden z-10">
+      <div className="py-[100px]">
         <div className="container">
           <h2 className="text-center max-w-[738px] font-Matter font-semibold text-[40px] leading-[135%] tracking-[-0.8px] mx-auto">We are proud to have worked with these amazing brands</h2>
           <div className="flex items-center pt-[56px] max-w-[1031px] mx-auto justify-center flex-wrap">
@@ -62,8 +62,8 @@ const Brands = () => {
             </div>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 

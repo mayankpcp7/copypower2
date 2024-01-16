@@ -11,11 +11,11 @@ import rightellipse from "../../public/images/webp/service_right.webp";
 import bottomred from "../../public/images/webp/service_bottom_red.webp";
 const Ourservice = () => {
   return (
-    <>
-      <section className="py-[150px] relative">
-        <Image className="absolute top-[-10%] z-0" width={1338} height={987} src={upperellipse} alt="upperellipse"></Image>
-        <Image className="absolute end-[-10%] z-0" width={858} height={1088} src={rightellipse} alt="rightellipse"></Image>
-        <Image className="absolute bottom-[-20%] start-[-10%] z-0" width={1138} height={1051} src={bottomred} alt="bottomred"></Image>
+    <section className="max-w-[1920px] mx-auto">
+      <div className="py-[150px] relative">
+        <Image className="absolute top-[-10%] z-0" src={upperellipse} alt="upperellipse"></Image>
+        <Image className="absolute top-[20%] end-[-25%] z-0" src={rightellipse} alt="rightellipse"></Image>
+        <Image className="absolute bottom-[-30%] start-[-20%] z-0" src={bottomred} alt="bottomred"></Image>
         <div className="container">
           <h2 className="text-center font-Matter font-semibold text-[40px] leading-[135%] tracking-[-0.8px] mx-auto">
             Our Services
@@ -262,8 +262,8 @@ const Ourservice = () => {
             </div>
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 
