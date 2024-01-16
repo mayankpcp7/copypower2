@@ -12,16 +12,16 @@ import bottomred from "../../public/images/webp/service_bottom_red.webp";
 const Ourservice = () => {
   return (
     <section className="max-w-[1920px] mx-auto">
-      <div className="py-[150px] relative">
+      <div className="py-[48px] md:py-[60px] lg:py-[80px] xl:py-[150px] relative">
         <Image className="absolute top-[-10%] z-0" src={upperellipse} alt="upperellipse"></Image>
         <Image className="absolute top-[20%] end-[-25%] z-0" src={rightellipse} alt="rightellipse"></Image>
         <Image className="absolute bottom-[-30%] start-[-20%] z-0" src={bottomred} alt="bottomred"></Image>
         <div className="container">
-          <h2 className="text-center font-Matter font-semibold text-[40px] leading-[135%] tracking-[-0.8px] mx-auto">
+          <h2 className="text-center relative z-10 font-Matter font-semibold text-[40px] leading-[135%] tracking-[-0.8px] mx-auto">
             Our Services
           </h2>
-          <div className="flex items-center pt-[77px] justify-center flex-wrap relative z-20">
-            <div className="md:w-10/12 w-full lg:w-6/12  lg:pe-5 lg:pb-5">
+          <div className="flex items-center pt-[50px] lg:pt-[77px] justify-center flex-wrap relative z-20">
+            <div className="md:w-10/12 w-full lg:w-6/12  lg:pe-5 lg:pb-5 pb-4">
               <div className="flex flex-col rounded-[28px] xl:w-[550px] h-[465px] items-start  pt-[32px] bg-white sm:px-[25px] px-3 xl:px-[42px] ">
                 <Image src={seo} width={80} height={80} alt="seo"></Image>
                 <h5 className="text-secondblack font-Matter pt-6 font-semibold text-[28px] tracking-[0.56px] leading-[120%]">
@@ -81,7 +81,7 @@ const Ourservice = () => {
                 </div>
               </div>
             </div>
-            <div className="md:w-10/12 w-full lg:w-6/12  lg:ps-5 lg:pb-5">
+            <div className="md:w-10/12 w-full lg:w-6/12  lg:ps-5 lg:pb-5 pb-4">
               <div className="flex flex-col rounded-[28px] xl:w-[550px] h-[465px] items-start  pt-[32px] bg-white sm:px-[25px] px-3 xl:px-[42px] ">
                 <Image src={email} width={80} height={80} alt="seo"></Image>
                 <h5 className="text-secondblack font-Matter pt-6 font-semibold text-[28px] tracking-[0.56px] leading-[120%]">
@@ -141,7 +141,7 @@ const Ourservice = () => {
                 </div>
               </div>
             </div>
-            <div className="md:w-10/12 w-full lg:w-6/12  lg:pe-5 lg:pt-5">
+            <div className="md:w-10/12 w-full lg:w-6/12  lg:pe-5 lg:pt-5 pb-4">
               <div className="flex flex-col rounded-[28px] xl:w-[550px] h-[465px] items-start  pt-[32px] bg-white sm:px-[25px] px-3 xl:px-[42px] ">
                 <Image src={sales} width={80} height={80} alt="seo"></Image>
                 <h5 className="text-secondblack font-Matter pt-6 font-semibold text-[28px] tracking-[0.56px] leading-[120%]">
@@ -201,7 +201,7 @@ const Ourservice = () => {
                 </div>
               </div>
             </div>
-            <div className="md:w-10/12 w-full lg:w-6/12  lg:ps-5 lg:pt-5">
+            <div className="md:w-10/12 w-full lg:w-6/12  lg:ps-5 lg:pt-5 pb-4">
               <div className="flex flex-col rounded-[28px] xl:w-[550px] h-[465px] items-start  pt-[32px] bg-white sm:px-[25px] px-3 xl:px-[42px] ">
                 <Image src={martech} width={80} height={80} alt="seo"></Image>
                 <h5 className="text-secondblack font-Matter pt-6 font-semibold text-[28px] tracking-[0.56px] leading-[120%]">

@@ -3,7 +3,8 @@ import Aware2 from "../../../public/images/webp/aware2.webp";
 import Aware3 from "../../../public/images/webp/aware3.webp";
 import Aware4 from "../../../public/images/webp/aware4.webp";
 import check from "../../../public/images/webp/check.webp";
-
+import check2 from "../../../public/images/webp/check.webp";
+import Image from "next/image";
 export const work = [
   {
     id: 1,
@@ -11,6 +12,7 @@ export const work = [
     Heading:
       "Get high quality traffic to your website with organic and paid channels.",
     check: check,
+    check2: <Image width={28} height={28} className="me-2" src={check2} alt="check"></Image>,
     pera1: "Content & SEO Strategy",
     pera2: "Content Writing",
     pera3: "Content & SEO Strategy",
@@ -42,6 +44,6 @@ export const work = [
     check: check,
     pera1: "Chat Bots",
     pera2: "Referral & Affiliate Programs",
-    pera1: "Paid Campaigns ",
+    pera3: "Paid Campaigns" ,
   },
 ];

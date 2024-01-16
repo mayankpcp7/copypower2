@@ -19,8 +19,8 @@ export default function Home() {
   return (
     <>
       <div className="overflow-hidden">
-        {/* <NavBar /> */}
-        {/* <Header /> */}
+        <NavBar />
+        <Header />
         <WeWork />
         <Brands />
         <Ourservice />
