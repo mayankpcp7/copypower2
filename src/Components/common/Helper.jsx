@@ -12,7 +12,15 @@ export const work = [
     Heading:
       "Get high quality traffic to your website with organic and paid channels.",
     check: check,
-    check2: <Image width={28} height={28} className="me-2" src={check2} alt="check"></Image>,
+    check2: (
+      <Image
+        width={28}
+        height={28}
+        className="me-2"
+        src={check2}
+        alt="check"
+      ></Image>
+    ),
     pera1: "Content & SEO Strategy",
     pera2: "Content Writing",
     pera3: "Content & SEO Strategy",
@@ -44,6 +52,45 @@ export const work = [
     check: check,
     pera1: "Chat Bots",
     pera2: "Referral & Affiliate Programs",
-    pera3: "Paid Campaigns" ,
+    pera3: "Paid Campaigns",
   },
 ];
+export const Nextbtn = () => {
+  return (
+    <svg
+      className="fill sm:w-[40px] w-[30px]"
+      height="40"
+      viewBox="0 0 40 40"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="20" cy="20" r="19.5" stroke="#621C69" />
+      <path
+        d="M16 11L25 20L16 29"
+        stroke="#621C69"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};
+export const Backbtn = () => {
+  return (
+    <svg
+      className="fill sm:w-[40px] w-[30px]"
+      viewBox="0 0 41 40"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle cx="20.5" cy="20" r="19.5" stroke="#621C69" />
+      <path
+        d="M24.5 29L15.5 20L24.5 11"
+        stroke="#621C69"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  );
+};

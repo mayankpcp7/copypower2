@@ -3,18 +3,18 @@ import Image from "next/image";
 import { React, useState } from "react";
 import logo from "../../public/images/webp/navlogo.webp";
 import droparrow from "../../public/images/webp/droparrow.webp";
-// import { RxCross1 } from "react-icons/rx";
-// import { BiMenu } from "react-icons/bi";
+import { RxCross1 } from "react-icons/rx";
+import { BiMenu } from "react-icons/bi";
 const MyNav = () => {
   const [head, sethead] = useState(true);
   function showUl() {
     sethead(!head);
   }
-  // if (!head) {
-  //   document.body.style.overflow = "hidden";
-  // } else {
-  //   document.body.style.overflow = "unset";
-  // }
+  if (!head) {
+    document.body.style.overflow = "hidden";
+  } else {
+    document.body.style.overflow = "unset";
+  }
   return (
     <>
       <section className="relative z-[2] animate__rotateInDownRight">
@@ -27,9 +27,9 @@ const MyNav = () => {
                 alt="logo"
               ></Image>
             </div>
-            <div onClick={showUl} className="z-20 xl:hidden">
+            <div onClick={showUl} className="z-30 xl:hidden">
               <h3 className="text-purple text-[30px]">
-                {/* {head ? <BiMenu /> : <RxCross1 />} */}
+                {head ? <BiMenu /> : <RxCross1 />}
               </h3>
             </div>
             <div

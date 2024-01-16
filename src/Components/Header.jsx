@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <>
       <header className="2xl:min-h-screen flex flex-col justify-center relative">
-        <main className="flex flex-col 2xl:mt-0 sm:mt-[97px] mt-[57px] 2xl:pb-[109px] items-center jsutify-center pb-[80px] md:pb-[123px]">
+        <main className="flex flex-col 2xl:mt-0 sm:mt-[97px] mt-[57px] items-center jsutify-center pb-[80px] md:pb-[123px]">
           <div className="container">
             <div className="flex flex-col items-center  relative">
               <Image
