@@ -13,14 +13,12 @@ import ConsultationCard from "@/src/Components/ConsultationCard";
 import StrategiesCard from "@/src/Components/StrategiesCard";
 import Footer from "@/src/Components/Footer";
 import BackToTop from "@/src/Components/BackToTop";
-import Pre_loder from "@/src/Components/Pre_loader";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
       <div className="overflow-hidden">
-        <Pre_loder />
         <NavBar />
         <Header />
         <WeWork />
