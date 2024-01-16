@@ -198,3 +198,22 @@
 ::placeholder {
   color: #707070 !important;
 }
+
+/* preloder-key-frame */
+.loader {
+  display: flex;
+  width: calc(228px * 10);
+  animation: zoom-in 1500ms linear infinite;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: translateX(0);
+    scale: 1;
+  }
+
+  50% {
+    transform: translateX(0);
+    scale: 0.85;
+  }
+}
