@@ -35,6 +35,10 @@
   box-shadow: 4px 8px 16px 0px rgba(0, 0, 0, 0.15);
 }
 
+.consltation_card_shadow {
+  box-shadow: 0px 4px 50px 10px rgba(0, 0, 0, 0.04) !important;
+}
+
 .card_bg {
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.20);
