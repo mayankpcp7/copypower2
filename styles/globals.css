@@ -108,3 +108,7 @@
 .fill:hover path {
   stroke: white !important;
 }
+
+::placeholder {
+  color: #707070 !important;
+}
