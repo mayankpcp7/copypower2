@@ -12,16 +12,16 @@
 .ff_opensans {
   font-family: "Open Sans";
 }
+
 ::-webkit-scrollbar {
   opacity: 0;
 }
-@font-face {
-  font-family: "Matter";
-  src: url(../src/assets/fonts/Matter/Matter-Regular.ttf);
-  src: url(../src/assets/fonts/Matter/Matter-Regular.ttf);
-  src: url(../src/assets/fonts/Matter/Matter-Medium.ttf);
-  src: url(../src/assets/fonts/Matter/Matter-SemiBold.ttf);
-}
+  @font-face {
+    font-family: "Matter";
+    src: url(../src/assets/fonts/Matter/Matter-Regular.ttf);
+    src: url(../src/assets/fonts/Matter/Matter-Regular.ttf);
+    src: url(../src/assets/fonts/Matter/Matter-Medium.ttf);
+    src: url(../src/assets/fonts/Matter/Matter-SemiBold.ttf);}
 
 .box_shadow:hover {
   box-shadow: -1px 1px 22px 0px rgba(0, 0, 0, 0.75);
@@ -56,11 +56,12 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.bg_work {
+.bg_work{
   background-image: url(../public/images/webp/triangle\ ellipse.webp);
   background-size: cover;
   background-position: center;
 }
+
 .slick-slide {
   padding-left: 10px;
   padding-right: 10px;
@@ -133,11 +134,15 @@ li.slick-active {
   width: 50px;
   cursor: pointer;
 }
-.slick-slide {
+.slick-slide{
   display: flex !important;
   justify-content: center !important;
 }
-@media (min-width: 1280px) {
+@media (min-width:1280px) {
+  .slick-dots li button:before {
+    margin-top: 62px;
+  }
+
   .box_shadow:hover {
     box-shadow: -1px 1px 22px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -1px 1px 22px 0px rgba(0, 0, 0, 0.75);
@@ -183,4 +188,25 @@ li.slick-active {
     width: 50px;
     cursor: pointer;
   }
+
+  @media (min-width: 1024px) {
+    .slick-dots li button:before {
+      margin-top: 62px;
+    }
+  }
+
+  .fill {
+    fill: none !important;
+    transition: all 300ms linear;
+    cursor: pointer;
+  }
+
+  .fill:hover {
+    fill: #621c69 !important;
+  }
+
+  .fill:hover path {
+    stroke: white !important;
+  }
+
 }

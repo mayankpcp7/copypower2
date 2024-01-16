@@ -3,6 +3,7 @@ import logoimg from '../../public/images/webp/Footer_logo.webp'
 import Image from 'next/image'
 import Link from 'next/link'
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
     return (
         <div className='overflow-hidden'>
             <div className='bg-secondblack pt-12 md:pt-[69px] pb-5 md:pb-[32px] relative z-[1]'>
@@ -12,17 +13,17 @@ const Footer = () => {
                         <div className='w-full sm:max-w-[272px]'>
                             <ul>
                                 <li className='text-white font-Matter text-[20px] font-semibold leading-[160%]'>Services</li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'>Email Marketing Strategy & Audit</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Email Campaign Management</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Email Template Production</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Email Deliverability</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>ESP Vendor Evaluation & Migration</a></li>
+                                <li className=' mt-5'><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Email Marketing Strategy & Audit</a></li>
+                                <li className=' mt-3'><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Email Campaign Management</a></li>
+                                <li className=' mt-3'><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Email Template Production</a></li>
+                                <li className=' mt-3'><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Email Deliverability</a></li>
+                                <li className=' mt-3'><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>ESP Vendor Evaluation & Migration</a></li>
                             </ul>
 
                             <ul className='mt-10 sm:mt-[109px]'>
                                 <li className='text-white font-Matter text-[20px] font-semibold leading-[160%]'>Verticals</li>
-                                <li><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5' href="#">B2B Email Marketing Agency</a></li>
-                                <li><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3 whitespace-nowrap' href="#">E-commerce Email Marketing Agency</a></li>
+                                <li className='mt-5'><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]' href="#">B2B Email Marketing Agency</a></li>
+                                <li className='mt-3'><a className='text-light_white font-Mater font-normal text-[16px] leading-[155%]  whitespace-nowrap' href="#">E-commerce Email Marketing Agency</a></li>
 
                             </ul>
                         </div>
@@ -30,36 +31,36 @@ const Footer = () => {
                         <div className='sm:max-w-[273px]'>
                             <ul>
                                 <li className='text-white font-Matter text-[20px] font-semibold leading-[160%]'>Platforms</li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'>Klaviyo Email Experts</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Hubspot Email Experts</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Mailchimp Email Experts</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>SendinBlue Email Experts</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Aweber Email Markeing Experts</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Active Campaign Email Experts</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Infusionsoft Email Experts</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Campaign Monitor Email Experts</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Braze Email Expert</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Omnisend Emaill Experts</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3'>Keap Emall Experts</a></li>
+                                <li className=' mt-5' ><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Klaviyo Email Experts</a></li>
+                                <li className=' mt-3' ><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Hubspot Email Experts</a></li>
+                                <li className=' mt-3' ><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Mailchimp Email Experts</a></li>
+                                <li className=' mt-3' ><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>SendinBlue Email Experts</a></li>
+                                <li className=' mt-3' ><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Aweber Email Markeing Experts</a></li>
+                                <li className=' mt-3' ><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Active Campaign Email Experts</a></li>
+                                <li className=' mt-3' ><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Infusionsoft Email Experts</a></li>
+                                <li className=' mt-3' ><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Campaign Monitor Email Experts</a></li>
+                                <li className=' mt-3' ><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Braze Email Expert</a></li>
+                                <li className=' mt-4' ><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Omnisend Emaill Experts</a></li>
+                                <li className=' mt-3' ><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Keap Emall Experts</a></li>
                             </ul>
                         </div>
 
                         <div className='w-full sm:max-w-[171px] xl:ps-3'>
                             <ul>
                                 <li className='text-white font-Matter text-[20px] font-semibold leading-[160%]'>About</li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'>Who we are?</a></li>
-                                <li><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3' href="#">Testimonials</a></li>
-                                <li><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3' href="#">Careers</a></li>
-                                <li><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3' href="#">Contact us</a></li>
-                                <li><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3' href="#">For Agencies</a></li>
+                                <li className=' mt-5'><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Who we are?</a></li>
+                                <li className=' mt-3'><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]' href="#">Testimonials</a></li>
+                                <li className=' mt-3'><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]' href="#">Careers</a></li>
+                                <li className=' mt-3'><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]' href="#">Contact us</a></li>
+                                <li className=' mt-3'><a className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]' href="#">For Agencies</a></li>
                             </ul>
 
                             <ul className='mt-10'>
                                 <li className='text-white font-Matter text-[20px] font-semibold leading-[160%]'>Resources</li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-5'>Blog</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3 whitespace-nowrap'>Case Studies</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3 whitespace-nowrap'>Email Marketing Guides</a></li>
-                                <li><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] mt-3 whitespace-nowrap'>Ebooks & Downloads</a></li>
+                                <li className=' mt-5'><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%]'>Blog</a></li>
+                                <li className=' mt-3'><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] whitespace-nowrap'>Case Studies</a></li>
+                                <li className=' mt-3 '><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] whitespace-nowrap'>Email Marketing Guides</a></li>
+                                <li className=' mt-3'><a href="#" className='text-light_white font-Mater font-normal  text-[16px] leading-[155%] whitespace-nowrap'>Ebooks & Downloads</a></li>
 
                             </ul>
                         </div>
@@ -75,11 +76,11 @@ const Footer = () => {
                             </div>
 
                             <div className='max-w-[400px] sm:max-w-[287px] border border-white rounded-lg overflow-hidden p-2.5 bg-white mt-4'>
-                                <input type="text" placeholder='Your Name' className='w-full bg-white text-black opacity-60 outline-none' />
+                                <input type="text" placeholder='Your Email' className='w-full bg-white text-black opacity-60 outline-none' />
                             </div>
 
                             <div className='max-w-[135px] mt-6 sm:mt-8 md:mt-10'>
-                                <button className='font-Matter font-semibold leading-[120%] text-secondblack rounded-lg bg-Mustard_color w-full py-4'>Subscribe</button>
+                                <button className='font-Matter font-semibold leading-[120%] text-secondblack rounded-lg bg-Mustard_color w-full hover:bg-white transition-all duration-200 py-4'>Subscribe</button>
                             </div>
 
                         </div>
@@ -91,7 +92,7 @@ const Footer = () => {
                         <div className='flex items-center gap-3 flex-wrap'>
                             <a href="#" className='flex items-center text-white opacity-80'>Privacy Policy | .</a>
                             <a href="#" className='flex items-center text-white opacity-80'>Terms of use | . </a>
-                            <p className='flex items-center text-white opacity-80'>Copyright 2024. Copypower Media |</p>
+                            <p className='flex items-center text-white opacity-80'>Copyright {currentYear} . Copypower Media |</p>
                             <p className='flex items-center text-white opacity-80'>All Rights Reserved.</p>
                         </div>
 

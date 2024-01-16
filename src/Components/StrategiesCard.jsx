@@ -27,7 +27,7 @@ const StrategiesCard = () => {
                                     <p className='text-white ff_montserat text-[24px] font-semibold leading-[135%] tracking-[-0.48px] uppercase'>Free Guide</p>
                                     <h3 className='text-white font-Matter text-[27px] sm:text-[32px] md:text-[35px] lg:text-[40px] font-semibold leading-[135%] tracking-[-0.8px] mt-4'>Avoid Deadly Online Marketing Mistakes With These 7 Key Strategies</h3>
                                     <div className='md:max-w-[189px] md:h-[62px] max-w-[150px] h-[52px] mt-4 sm:mt-8 md:mt-12'>
-                                        <button className='font-Matter font-semibold leading-[120%] md:text-[18px] text-secondblack rounded-lg bg-Mustard_color w-full py-4 md:py-5'>Download Now</button>
+                                        <button className='font-Matter font-semibold leading-[120%] md:text-[18px] text-secondblack rounded-lg bg-Mustard_color w-full py-4 md:py-5 hover:bg-white transition-all duration-200'>Download Now</button>
                                     </div>
                                 </div>
 
