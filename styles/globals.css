@@ -85,7 +85,7 @@
   cursor: pointer;
 }
 
-@media (min-width:1024px) {
+@media (min-width:1280px) {
   .slick-dots li button:before {
     margin-top: 62px;
   }

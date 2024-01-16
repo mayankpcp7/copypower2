@@ -19,13 +19,10 @@ const ConsultationCard = () => {
                             <div className='px-3 sm:pe-0 lg:ps-[48px] xl:ps-[72px]'>
                                 <h3 className='font-Matter text-[40px] font-semibold leading-[135%] tracking-[-0.8%] text-secondblack'>Get Free Consultation</h3>
                                 <p className='font-Matter text-[18px] font-normal leading-[155%] text-secondblack mt-2 lg:mt-4'>Get in touch today to qualify for a FREE personalized marketing plan.</p>
-
                                 <div className='mb-3 mt-6 sm:mb-6 md:mb-8 md:mt-8 lg:mb-0'>
                                     <button className="bg-purple leading-[120%] hover:bg-white hover:text-purple hover:border-[2px] border-solid border-purple duration-150 border-[2px] font-Matter font-semibold text-[18px] rounded-[8px] w-[189px] whitespace-nowrap h-[62px] text-white py-[19px]  px-[31px]">Download Now</button>
                                 </div>
-
                             </div>
-
                             <Image width={461} height={328} src={man_img} alt='man_img'></Image>
                         </div>
                     </div>

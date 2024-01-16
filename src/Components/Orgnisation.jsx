@@ -31,7 +31,7 @@ const Orgnisation = () => {
             <div className='max-w-[1220px] mx-auto relative'>
 
                 <div className='absolute start-[5%] xl:start-0 top-[95%] md:top-[90%] xl:top-[42%] prev1'>
-                    <div className='relative z-[100]'>
+                    <div className='relative z-[2]'>
                         <svg className='fill sm:w-[40px] w-[30px]' viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="20.5" cy="20" r="19.5" stroke="#621C69" />
                             <path d="M24.5 29L15.5 20L24.5 11" stroke="#621C69" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -39,7 +39,7 @@ const Orgnisation = () => {
                     </div>
                 </div>
                 <div className='absolute end-[5%] xl:end-0 top-[94%] md:top-[90%] xl:top-[42%] Next1'>
-                    <div className='relative z-[100]'>
+                    <div className='relative z-[2]'>
                         <svg className='fill sm:w-[40px] w-[30px]' height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="20" cy="20" r="19.5" stroke="#621C69" />
                             <path d="M16 11L25 20L16 29" stroke="#621C69" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -47,7 +47,7 @@ const Orgnisation = () => {
                     </div>
                 </div>
 
-                <div className='max-w-[1140px] mx-auto px-3 relative z-[50] pb-12 md:pb-[60px] lg:pb-[80px] xl:pb-[224px] pt-12 md:pt-[60px] lg:pt-[80px] xl:pt-[155px]'>
+                <div className='max-w-[1140px] mx-auto px-3 relative z-[1] pb-12 md:pb-[60px] lg:pb-[80px] xl:pb-[224px] pt-12 md:pt-[60px] lg:pt-[80px] xl:pt-[155px]'>
                     <Slider {...settings}>
                         <div className='border-transparent border-solid bg-white rounded-[20px] max-w-[1068px] relative orgnisation_card_shadow'>
                             <Image className='absolute bottom-[60%] start-[65%] md:bottom-[3%] md:start-[20%]' src={bubbles_img} alt='bubbles_img'></Image>
