@@ -21,9 +21,9 @@ export default function Home() {
     <>
       <div className="overflow-hidden">
         <Pre_loder />
-        {/* <NavBar />
-        <Header /> */}
-        {/* <WeWork /> */}
+        <NavBar />
+        <Header />
+        <WeWork />
         <Brands />
         <Ourservice />
         <Casestudies />

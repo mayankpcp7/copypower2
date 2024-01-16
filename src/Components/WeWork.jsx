@@ -2,42 +2,15 @@
 import React from "react";
 import { work } from "./common/Helper";
 import Image from "next/image";
-import ScrollTrigger from "gsap/dist/ScrollTrigger";
-import { useEffect, useRef } from "react";
-import { gsap } from "gsap";
+
 const WeWork = () => {
-  const sectionRef = useRef(null);
-  const triggerRef = useRef(null);
-  gsap.registerPlugin(ScrollTrigger);
-  useEffect(() => {
-    const pin = gsap.to(
-      sectionRef.current,
-      {
-        translateY: 0,
-      },
-      {
-        translateY: "-200vw",
-        ease: "none",
-        duration: 1,
-        ScrollTrigger: {
-          trigger: triggerRef.current,
-          start: "top top",
-          end: "20 top",
-          scrub: 0.6,
-          pin: true,
-        },
-      }
-    );
-    return () => {
-      pin.kill();
-    };
-  }, []);
+
   return (
     <>
       <div>
         <section className="pt-[44px] bg_work">
-          <div ref={triggerRef}>
-            <div ref={sectionRef} className="container ">
+          <div>
+            <div className="container ">
               <h2 className="text-main font-Matter font-semibold text-[28px] md:text-[33px] lg:text-[35px] xl:text-[40px] leading-[135%] text-center max-w-[797px] mx-auto">
                 We work with you to create scalable, repeatable full-stack
                 marketing
