@@ -13,8 +13,8 @@ const Brands = () => {
     <section className="overflow-hidden z-10">
       <div className="py-[48px] md:py-[60px] lg:py-[80px] xl:py-[100px]">
         <div className="container">
-          <h2 className="text-center max-w-[738px] font-Matter font-semibold text-[40px] leading-[135%] tracking-[-0.8px] mx-auto">We are proud to have worked with these amazing brands</h2>
-          <div className="flex items-center pt-[56px] max-w-[1031px] mx-auto justify-center flex-wrap relative z-20">
+          <h2 className="text-center max-w-[738px] font-Matter font-semibold text-[28px] sm:text-[30px] md:text-[35px] lg:text-[40px] leading-[135%] tracking-[-0.8px] mx-auto">We are proud to have worked with these amazing brands</h2>
+          <div className="flex items-center pt-5 sm:pt-10 md:pt-12 lg:pt-[56px] max-w-[1031px] mx-auto justify-center flex-wrap relative z-20">
             <div className="md:w-4/12 sm:6/12 xs:w-10/12 lg:w-3/12 p-3">
               <div className="flex justify-center items-center border border-solid border-[#e5e5e5] rounded-[15px] w-[225px] box_shadow transition-all duration-150 h-[100px]">
                 <Image

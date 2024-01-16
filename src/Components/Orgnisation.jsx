@@ -62,7 +62,7 @@ const Orgnisation = () => {
           </div>
         </div>
 
-        <div className="max-w-[1140px] mx-auto px-3 relative z-[1] pb-12 md:pb-[60px] lg:pb-[80px] xl:pb-[224px] pt-12 md:pt-[60px] lg:pt-[80px] xl:pt-[155px]">
+        <div className="max-w-[1140px] mx-auto px-3 relative z-[1] pb-[60px] lg:pb-[80px] xl:pb-[224px] pt-12 md:pt-[60px] lg:pt-[80px] xl:pt-[155px]">
           <Slider {...settings} ref={first}>
             <div className="border-transparent border-solid bg-white rounded-[20px] max-w-[1068px] relative orgnisation_card_shadow">
               <Image
