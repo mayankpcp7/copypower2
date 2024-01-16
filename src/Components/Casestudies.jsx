@@ -13,14 +13,14 @@ const Casestudies = () => {
   return (
     <>
       <section className="max-w-[1920px] mx-auto relative">
-        <Image className="absolute top-[-10%] start-[-30%]" src={caseupleft} alt="upperellipse" ></Image>
+        <Image className="absolute top-[-10%] start-[-30%] z-[-1]" src={caseupleft} alt="upperellipse" ></Image>
         <Image className="absolute right-[-40%]" src={caseupright} alt="uplefellipse"></Image>
         <Image className="absolute" src={casebottomleft} alt="bottomcaseellipse"></Image>
         <Image className="absolute" src={casebottomright} alt="casebottomleft"></Image>
         <Image className="absolute top-[30%] start-[-25%]" src={ellipse_57} alt="casebottomleft"></Image>
 
-        <div className="container">
-          <h2 className="text-center font-Matter font-semibold text-[40px] leading-[135%] tracking-[-0.8px] mx-auto">
+        <div className="container pb-5 sm:pb-0 relative">
+          <h2 className="text-center font-Matter font-semibold text-[40px] leading-[135%] tracking-[-0.8px] mx-auto relative z-[10]">
             Case Studies
           </h2>
           <p className="text-center pt-1 sm:pt-3 md:pt-5 font-Matter text-[18px] leading-[155%] font-normal text-secondblack opacity-80">
