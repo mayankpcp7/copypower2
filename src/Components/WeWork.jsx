@@ -44,7 +44,7 @@ const WeWork = () => {
                             width={28}
                             height={28}
                           ></Image>
-                          <p className="font-matter text-secondblack text-[18px] lg:text-[20px] leading-[145%] font-normal">
+                          <p className="font-Matter text-secondblack text-[18px] lg:text-[20px] leading-[145%] font-normal">
                             {process.pera1}
                           </p>
                         </div>
@@ -55,7 +55,7 @@ const WeWork = () => {
                             width={28}
                             height={28}
                           ></Image>
-                          <p className="font-matter text-secondblack text-[18px] lg:text-[20px] leading-[145%] font-normal">
+                          <p className="font-Matter text-secondblack text-[18px] lg:text-[20px] leading-[145%] font-normal">
                             {process.pera2}
                           </p>
                         </div>
@@ -66,13 +66,13 @@ const WeWork = () => {
                             width={28}
                             height={28}
                           ></Image>
-                          <p className="font-matter text-secondblack text-[18px] lg:text-[20px] leading-[145%] font-normal">
+                          <p className="font-Matter text-secondblack text-[18px] lg:text-[20px] leading-[145%] font-normal">
                             {process.pera3}
                           </p>
                         </div>
                         <div className="flex items-center mt-[13px]">
                           <div>{process.check2}</div>
-                          <p className="font-matter text-secondblack text-[18px] lg:text-[20px] leading-[145%] font-normal">
+                          <p className="font-Matter text-secondblack text-[18px] lg:text-[20px] leading-[145%] font-normal">
                             {process.pera4}
                           </p>
                         </div>
