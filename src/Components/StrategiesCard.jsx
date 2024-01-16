@@ -9,7 +9,7 @@ import ellipse_61 from "../../public/images/webp/Ellipse_61.webp"
 const StrategiesCard = () => {
     return (
         <div className='max-w-[1920px] mx-auto'>
-            <div className='relative'>
+            <div className='relative z-[-1]'>
                 <Image className='absolute md:top-[-130%] lg:top-[-40%] md:end-[-20%] lg:end-[-30%]' src={ellipse_65} alt=''></Image>
                 <Image className='absolute top-[-200%] lg:top-[10%] md:end-[-10%] lg:end-[0%]' src={ellipse_64} alt='ellipse_64'></Image>
                 <Image className='absolute top-[-60%] lg:top-[-40%] start-[-20%]' src={ellipse_62} alt='ellipse_62'></Image>

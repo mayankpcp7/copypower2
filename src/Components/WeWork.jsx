@@ -35,14 +35,14 @@ const WeWork = () => {
   return (
     <>
       <div>
-        <section className="pt-[44px]">
+        <section className="pt-[44px] bg_work">
           <div ref={triggerRef}>
             <div ref={sectionRef} className="container ">
               <h2 className="text-main font-Matter font-semibold text-[28px] md:text-[33px] lg:text-[35px] xl:text-[40px] leading-[135%] text-center max-w-[797px] mx-auto">
                 We work with you to create scalable, repeatable full-stack
                 marketing
               </h2>
-              <div className="flex content-wrapper sticky justify-center flex-wrap items-center md:justify-between mt-[66px] h-screen overflow-x-hidden">
+              <div className="flex content-wrapper sticky justify-center flex-wrap items-center md:justify-between mt-[66px]">
                 {work.map((process) => {
                   return (
                     <>

@@ -3,8 +3,8 @@ import Image from "next/image";
 import { React, useState } from "react";
 import logo from "../../public/images/webp/navlogo.webp";
 import droparrow from "../../public/images/webp/droparrow.webp";
-// import { RxCross1 } from "react-icons/rx";
-// import { BiMenu } from "react-icons/bi";
+import { RxCross1 } from "react-icons/rx";
+import { BiMenu } from "react-icons/bi";
 const MyNav = () => {
   const [head, sethead] = useState(true);
   function showUl() {
@@ -29,11 +29,11 @@ const MyNav = () => {
             </div>
             <div onClick={showUl} className="z-20 xl:hidden">
               <h3 className="text-purple text-[30px]">
-                {/* {head ? <BiMenu /> : <RxCross1 />} */}
+                {head ? <BiMenu /> : <RxCross1 />}
               </h3>
             </div>
             <div
-              className={`flex flex-col xl:flex-row fixed xl:relative w-full min-h-screen xl:min-h-0 top-[0] left-[-100%] xl:left-0 ttransition-opacity duration-700 xl:transition-none  justify-center xl:justify-end
+              className={`flex flex-col xl:flex-row fixed xl:relative w-full min-h-screen xl:min-h-0 top-[0] left-[-100%] xl:left-0 ttransition-opacity duration-700 xl:transition-none  justify-center xl:justify-end z-20
            items-center ${head ? "" : "!left-0 backdrop-blur-lg"}`}
             >
               <ul className="flex  flex-col xl:flex-row items-center">

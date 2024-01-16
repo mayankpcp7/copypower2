@@ -25,10 +25,10 @@ const BackToTop = () => {
     })
     return (
         <>
-            <div className='max-w-[1920px] mx-auto'>
+            <div className='max-w-[1920px] mx-auto z-50 relative'>
                 <div
                     onClick={() => setPosition({ ...position, position: { top: 0, left: 0 } })} className="circle" ref={scrollTop}>
-                    <div className='relative z-[50]'>
+                    <div>
                         <Image src={topUp} alt='topup'></Image>
                     </div>
                 </div>
