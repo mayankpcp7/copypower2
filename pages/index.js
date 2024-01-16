@@ -7,20 +7,16 @@ import Ourservice from "@/src/Components/Ourservice";
 import Casestudies from "@/src/Components/Casestudies";
 import Orgnisation from "@/src/Components/Orgnisation";
 import Industries from "@/src/Components/Industries";
+import ArticleSec from "@/src/Components/ArticleSec";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
       <div className="overflow-hidden">
-        <Header />
-        <WeWork />
         <Brands />
-        <Ourservice />
-        <Casestudies />
-        <Orgnisation />
-        <Industries />
-        
+        <WeWork />
+        <ArticleSec />
       </div>
     </>
   );

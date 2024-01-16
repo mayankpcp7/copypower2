@@ -28,6 +28,7 @@ module.exports = {
         light_white: "#cfcfcf",
         Mustard_color: "#FFD22E",
       },
+    
     },
   },
 };

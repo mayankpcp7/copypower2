@@ -12,7 +12,9 @@
 .ff_opensans {
   font-family: "Open Sans";
 }
-
+::-webkit-scrollbar {
+  opacity: 0;
+}
 /* @font-face {
   font-family: "Matter";
   src: url(../src/assets/fonts/Matter/Matter-Regular.ttf);
