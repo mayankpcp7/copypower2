@@ -7,40 +7,19 @@ import case1 from "../../public/images/webp/card1.webp";
 import case2 from "../../public/images/webp/card2.webp";
 import case3 from "../../public/images/webp/card3.webp";
 import bluearrow from "../../public/images/webp/learn.webp";
+import ellipse_57 from "../../public/images/webp/Ellipse_57.webp";
 import Image from "next/image";
 const Casestudies = () => {
   return (
     <>
-      <section>
-        <div className="container relative">
-          <Image
-            className="absolute top-[-10%] start-[-30%]"
-            width={938}
-            height={631}
-            src={caseupleft}
-            alt="upperellipse"
-          ></Image>
-          <Image
-            className="absolute right-[-40%] "
-            width={1240}
-            height={863}
-            src={caseupright}
-            alt="uplefellipse"
-          ></Image>
-          <Image
-            className="absolute"
-            width={902}
-            height={699}
-            src={casebottomleft}
-            alt="bottomcaseellipse"
-          ></Image>
-          <Image
-            className="absolute"
-            width={611}
-            height={425}
-            src={casebottomright}
-            alt="casebottomleft"
-          ></Image>
+      <section className="max-w-[1920px] mx-auto relative">
+        <Image className="absolute top-[-10%] start-[-30%]" src={caseupleft} alt="upperellipse" ></Image>
+        <Image className="absolute right-[-40%]" src={caseupright} alt="uplefellipse"></Image>
+        <Image className="absolute" src={casebottomleft} alt="bottomcaseellipse"></Image>
+        <Image className="absolute" src={casebottomright} alt="casebottomleft"></Image>
+        <Image className="absolute top-[30%] start-[-25%]" src={ellipse_57} alt="casebottomleft"></Image>
+
+        <div className="container">
           <h2 className="text-center font-Matter font-semibold text-[40px] leading-[135%] tracking-[-0.8px] mx-auto">
             Case Studies
           </h2>
