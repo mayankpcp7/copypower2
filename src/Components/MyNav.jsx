@@ -1,23 +1,31 @@
 "use client";
 import Image from "next/image";
-import { React, useState } from "react";
+import { React, useEffect, useState } from "react";
 import logo from "../../public/images/webp/navlogo.webp";
 import droparrow from "../../public/images/webp/droparrow.webp";
-// import { RxCross1 } from "react-icons/rx";
-// import { BiMenu } from "react-icons/bi";
+import { RxCross1 } from "react-icons/rx";
+import { BiMenu } from "react-icons/bi";
 const MyNav = () => {
-  const [head, sethead] = useState(true);
+  const [head, setHead] = useState(true);
+
+  useEffect(() => {
+    if (!head) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [head]);
+
   function showUl() {
-    sethead(!head);
+    setHead(!head);
   }
-  // if (!head) {
-  //   document.body.style.overflow = "hidden";
-  // } else {
-  //   document.body.style.overflow = "unset";
-  // }
   return (
     <>
-      <section className="relative z-[2] animate__rotateInDownRight">
+      <section className="relative z-[2] mt-[10px] xl:mt-[30px]">
         <div className="max-w-[1200px] mx-auto">
           <div className="flex justify-between items-center py-[20px] pe-3 xl:pe-5">
             <div>
@@ -28,8 +36,8 @@ const MyNav = () => {
               ></Image>
             </div>
             <div onClick={showUl} className="z-30 xl:hidden">
-              <h3 className="text-purple text-[30px]">
-                {/* {head ? <BiMenu /> : <RxCross1 />} */}
+              <h3 className="text-purple text-[50px]">
+                {head ? <BiMenu /> : <RxCross1 />}
               </h3>
             </div>
             <div
@@ -215,6 +223,7 @@ const MyNav = () => {
                       <ul className="py-1">
                         <li className=" hover:bg-purple hover:text-white">
                           <a
+                            onClick={showUl}
                             href="#"
                             target="_blank"
                             className="font-Matter text-[16px] text-seconblack leading-[155%]"
@@ -224,6 +233,7 @@ const MyNav = () => {
                         </li>
                         <li className=" hover:bg-purple hover:text-white">
                           <a
+                            onClick={showUl}
                             href="xyz.com"
                             className="font-Matter text-[16px] text-seconblack leading-[155%]"
                           >
@@ -232,6 +242,7 @@ const MyNav = () => {
                         </li>
                         <li className=" hover:bg-purple hover:text-white">
                           <a
+                            onClick={showUl}
                             href="xyz.com"
                             className="font-Matter text-[16px] text-seconblack leading-[155%]"
                           >
@@ -244,6 +255,7 @@ const MyNav = () => {
                 </li>
                 <li className="pb-4 xl:pb-0">
                   <a
+                    onClick={showUl}
                     className="font-Matter text-secondblack text-[16px]"
                     href="#"
                     target="_blank"

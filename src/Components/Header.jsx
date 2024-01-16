@@ -1,30 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import headerimg from "../../public/images/webp/headerimg.webp";
-import headerupperellipse from "../../public/images/webp/ellipse_upper_img.webp";
-import headerrightellipse from "../../public/images/webp/headerrightellipse.webp";
-import headerredellipse from "../../public/images/webp/red_eelipse_header.webp";
 import NavBar from "./MyNav";
 const Header = () => {
   return (
     <>
-      <header className="2xl:min-h-screen flex flex-col justify-center relative">
+      <header className="bg_header 2xl:min-h-screen flex flex-col justify-center relative">
         <main className="flex flex-col 2xl:mt-0 sm:mt-[97px] mt-[57px] items-center jsutify-center pb-[80px] md:pb-[123px]">
           <div className="container">
             <div className="flex flex-col items-center  relative">
-              <Image
-                src={headerredellipse}
-                width={772}
-                height={677}
-                className="absolute  top-[10%] z-0 start-[-40%]"
-              ></Image>
-              <Image
-                className="absolute z-0 end-[-10%]"
-                src={headerrightellipse}
-                width={552}
-                height={626}
-                alt="haederellipseimg"
-              ></Image>
               <Image
                 className="absolute hidden lg:block z-0 end-[-1%] top-[30%]"
                 src={headerimg}

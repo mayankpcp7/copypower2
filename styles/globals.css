@@ -51,7 +51,11 @@
 .card_shadow {
   box-shadow: 4px 4px 50px 12px rgba(0, 0, 0, 0.04);
 }
-
+.bg_header{
+  background-image: url(../public/images/webp/header_bg.webp);
+  background-size: cover;
+  background-position: center;
+}
 .skyblue_bg {
   background: url(../public/images/webp/skyblue_bg.webp);
   background-position: center;
