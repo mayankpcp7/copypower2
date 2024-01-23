@@ -7,7 +7,7 @@ import case1 from "../../public/images/webp/card1.webp";
 import case2 from "../../public/images/webp/card2.webp";
 import case3 from "../../public/images/webp/card3.webp";
 import bluearrow from "../../public/images/webp/learn.webp";
-import ellipse_57 from "../../public/images/webp/Ellipse_57.webp";
+import ellipse57 from "/public/images/webp/Ellipse_57.webp";
 import Image from "next/image";
 const Casestudies = () => {
   return (
@@ -17,7 +17,7 @@ const Casestudies = () => {
         <Image className="absolute right-[-40%]" src={caseupright} alt="uplefellipse"></Image>
         <Image className="absolute" src={casebottomleft} alt="bottomcaseellipse"></Image>
         <Image className="absolute" src={casebottomright} alt="casebottomleft"></Image>
-        <Image className="absolute top-[30%] start-[-25%]" src={ellipse_57} alt="casebottomleft"></Image>
+        <Image className="absolute top-[30%] start-[-25%]" src={ellipse57} alt="casebottomleft"></Image>
 
         <div className="container pb-5 sm:pb-0 relative">
           <h2 className="text-center font-Matter font-semibold text-[40px] leading-[135%] tracking-[-0.8px] mx-auto relative z-[10]">

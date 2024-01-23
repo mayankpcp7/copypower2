@@ -1,9 +1,9 @@
 import React from 'react'
 import man_img from '../../public/images/webp/man_img.webp'
 import Image from 'next/image'
-import ellipse_67 from '../../public/images/webp/ellipse_67.webp'
-import ellipse_64 from '../../public/images/webp/ellipse_64.webp'
-import ellipse_68 from '../../public/images/webp/ellipse_68.webp'
+import ellipse_67 from '/public/images/webp/ellipse_67.webp'
+import ellipse_64 from '/public/images/webp/ellipse_64.webp'
+import ellipse_68 from '/public/images/webp/ellipse_68.webp'
 
 const ConsultationCard = () => {
     return (

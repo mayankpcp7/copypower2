@@ -25,12 +25,12 @@ const MyNav = () => {
   }
   return (
     <>
-      <section className="relative z-[2] mt-[10px] xl:mt-[30px]">
-        <div className="max-w-[1200px] mx-auto">
-          <div className="flex justify-between items-center py-[20px] pe-3 xl:pe-5">
+      <section className="relative z-[4] mt-[10px] xl:mt-[30px]">
+        <div className="max-w-[1240px] mx-auto  nav_shadow rounded-[20px]">
+          <div className="flex justify-between items-center xl:py-[20px] pe-3 xl:pe-5">
             <div>
               <Image
-                className="w-[340px] cursor-pointer"
+                className="w-[348px] cursor-pointer"
                 src={logo}
                 alt="logo"
               ></Image>
@@ -57,7 +57,7 @@ const MyNav = () => {
                     </button>
                     <div className="absolute left-0 z-20 font-normal text-base  w-40 bg-white border border-gray-300 rounded-xl shadow-lg opacity-0 pointer-events-none mt-0 group-hover:pointer-events-auto group-hover:opacity-100 transition-opacity duration-700">
                       <ul className="py-1">
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             href="#"
                             target="_blank"
@@ -66,7 +66,7 @@ const MyNav = () => {
                             Option 1
                           </a>
                         </li>
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             href="xyz.com"
                             className="font-Matter text-[16px] text-seconblack leading-[155%]"
@@ -74,7 +74,7 @@ const MyNav = () => {
                             Option 2
                           </a>
                         </li>
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             href="xyz.com"
                             className="font-Matter text-[16px] text-seconblack leading-[155%]"
@@ -98,7 +98,7 @@ const MyNav = () => {
                     </button>
                     <div className="absolute left-0 z-10 font-normal text-base  w-40 bg-white border border-gray-300 rounded-xl shadow-lg opacity-0 pointer-events-none mt-0 group-hover:pointer-events-auto group-hover:opacity-100 transition-opacity duration-700">
                       <ul className="py-1">
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             href="#"
                             target="_blank"
@@ -107,7 +107,7 @@ const MyNav = () => {
                             Option 1
                           </a>
                         </li>
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             href="xyz.com"
                             className="font-Matter text-[16px] text-seconblack leading-[155%]"
@@ -115,7 +115,7 @@ const MyNav = () => {
                             Option 2
                           </a>
                         </li>
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             href="xyz.com"
                             className="font-Matter text-[16px] text-seconblack leading-[155%]"
@@ -139,7 +139,7 @@ const MyNav = () => {
                     </button>
                     <div className="absolute left-0 z-20 font-normal text-base  w-40 bg-white border border-gray-300 rounded-xl shadow-lg opacity-0 pointer-events-none mt-0 group-hover:pointer-events-auto group-hover:opacity-100 transition-opacity duration-700">
                       <ul className="py-1">
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             href="#"
                             target="_blank"
@@ -148,7 +148,7 @@ const MyNav = () => {
                             Option 1
                           </a>
                         </li>
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             href="xyz.com"
                             className="font-Matter text-[16px] text-seconblack leading-[155%]"
@@ -156,7 +156,7 @@ const MyNav = () => {
                             Option 2
                           </a>
                         </li>
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             href="xyz.com"
                             className="font-Matter text-[16px] text-seconblack leading-[155%]"
@@ -180,7 +180,7 @@ const MyNav = () => {
                     </button>
                     <div className="absolute left-0 z-20 font-normal text-base  w-40 bg-white border border-gray-300 rounded-xl shadow-lg opacity-0 pointer-events-none mt-0 group-hover:pointer-events-auto group-hover:opacity-100 transition-opacity duration-700">
                       <ul className="py-1">
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             href="#"
                             target="_blank"
@@ -189,7 +189,7 @@ const MyNav = () => {
                             Option 1
                           </a>
                         </li>
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             href="xyz.com"
                             className="font-Matter text-[16px] text-seconblack leading-[155%]"
@@ -197,7 +197,7 @@ const MyNav = () => {
                             Option 2
                           </a>
                         </li>
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             href="xyz.com"
                             className="font-Matter text-[16px] text-seconblack leading-[155%]"
@@ -221,7 +221,7 @@ const MyNav = () => {
                     </button>
                     <div className="absolute left-0 z-20 font-normal text-base  w-40 bg-white border border-gray-300 rounded-xl shadow-lg opacity-0 pointer-events-none mt-0 group-hover:pointer-events-auto group-hover:opacity-100 transition-opacity duration-700">
                       <ul className="py-1">
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             onClick={showUl}
                             href="#"
@@ -231,7 +231,7 @@ const MyNav = () => {
                             Option 1
                           </a>
                         </li>
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             onClick={showUl}
                             href="xyz.com"
@@ -240,7 +240,7 @@ const MyNav = () => {
                             Option 2
                           </a>
                         </li>
-                        <li className=" hover:bg-purple hover:text-white">
+                        <li className=" hover:bg-purple hover:text-white px-2">
                           <a
                             onClick={showUl}
                             href="xyz.com"
@@ -263,7 +263,7 @@ const MyNav = () => {
                     Career
                   </a>
                 </li>
-                <button className="bg-purple font-Matter border xl:ms-[66px] border-solid px-5 py-4 rounded-[8px] text-white   hover:text-purple border-purple hover:bg-white hover:border-purple font-semibold text-[16px] transition-all duration-150">
+                <button className="bg-purple h-[51px] flex items-center font-Matter border xl:ms-[66px] border-solid px-5 py-4 rounded-[8px] text-white   hover:text-purple border-purple hover:bg-white hover:border-purple font-semibold text-[16px] transition-all duration-150">
                   Free Consultation
                 </button>
               </ul>

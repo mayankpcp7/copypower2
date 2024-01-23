@@ -10,7 +10,7 @@ const WeWork = () => {
       <div>
         <section className="pt-[44px] bg_work">
           <div>
-            <div className="container ">
+            <div className="container xl:pb-[64px]">
               <h2 className="text-main font-Matter font-semibold text-[28px] md:text-[33px] lg:text-[35px] xl:text-[40px] leading-[135%] text-center max-w-[797px] mx-auto">
                 We work with you to create scalable, repeatable full-stack
                 marketing
