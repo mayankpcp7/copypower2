@@ -8,7 +8,7 @@ import case2 from "../../public/images/webp/card2.webp";
 import case3 from "../../public/images/webp/card3.webp";
 import bluearrow from "../../public/images/webp/learn.webp";
 import ellipse57 from "/public/images/webp/Ellipse_57.webp";
-import Image from "next/image";
+import Image from "nex";
 const Casestudies = () => {
   return (
     <>
