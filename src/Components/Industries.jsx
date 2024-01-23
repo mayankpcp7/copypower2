@@ -58,7 +58,7 @@ const Industries = () => {
               <div className="flex flex-col items-center max-w-[139px] h-[144px] mx-auto p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_1.webp"
+                  src="../../public/images/webp/Industries_img_1.webp"
                   alt="industry_1"
                   width={80}
                   height={80}
@@ -73,7 +73,7 @@ const Industries = () => {
               <div className="flex flex-col items-center mx-auto max-w-[139px] h-[144px] p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_2.webp"
+                  src="../../public/images/webp/Industries_img_2.webp"
                   alt="industry_2"
                   width={80}
                   height={80}
@@ -88,7 +88,7 @@ const Industries = () => {
               <div className="flex flex-col items-center mx-auto max-w-[139px] h-[144px] p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_3.webp"
+                  src="../../public/images/webp/Industries_img_3.webp"
                   alt="industry_3"
                   width={80}
                   height={80}
@@ -103,7 +103,7 @@ const Industries = () => {
               <div className="flex flex-col items-center mx-auto max-w-[139px] h-[144px] p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_4.webp"
+                  src="../../public/images/webp/Industries_img_4.webp"
                   alt="industry_4"
                   width={80}
                   height={80}
@@ -118,7 +118,7 @@ const Industries = () => {
               <div className="flex flex-col items-center mx-auto max-w-[139px] h-[144px] p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_5.webp"
+                  src="../../public/images/webp/Industries_img_5.webp"
                   alt="industry_5"
                   width={80}
                   height={80}
@@ -133,7 +133,7 @@ const Industries = () => {
               <div className="flex flex-col items-center mx-auto max-w-[139px] h-[144px] p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_6.webp"
+                  src="../../public/images/webp/Industries_img_6.webp"
                   alt="industry_6"
                   width={80}
                   height={80}
@@ -148,7 +148,7 @@ const Industries = () => {
               <div className="flex flex-col items-center mx-auto max-w-[139px] h-[144px] p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_7.webp"
+                  src="../../public/images/webp/Industries_img_7.webp"
                   alt="industry_7"
                   width={80}
                   height={80}
@@ -163,7 +163,7 @@ const Industries = () => {
               <div className="flex flex-col items-center mx-auto max-w-[139px] h-[144px] p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_8.webp"
+                  src="../../public/images/webp/Industries_img_8.webp"
                   alt="industry_8"
                   width={80}
                   height={80}
@@ -180,7 +180,7 @@ const Industries = () => {
               <div className="flex flex-col items-center max-w-[139px] h-[144px] mx-auto p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_9.webp"
+                  src="../../public/images/webp/Industries_img_9.webp"
                   alt="industry_9"
                   width={80}
                   height={80}
@@ -195,7 +195,7 @@ const Industries = () => {
               <div className="flex flex-col items-center max-w-[139px] h-[144px] mx-auto p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_10.webp"
+                  src="../../public/images/webp/Industries_img_10.webp"
                   alt="industry_10"
                   width={80}
                   height={80}
@@ -210,7 +210,7 @@ const Industries = () => {
               <div className="flex flex-col items-center max-w-[139px] h-[144px] mx-auto p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_11.webp"
+                  src="../../public/images/webp/Industries_img_11.webp"
                   alt="industry_11"
                   width={80}
                   height={80}
@@ -224,7 +224,7 @@ const Industries = () => {
             <div className="flex items-center justify-center">
               <div className="flex flex-col items-center max-w-[139px] h-[144px] mx-auto p-2.5">
                 <Image
-                  src="/images/webp/Industries_img_12.webp"
+                  src="../../public/images/webp/Industries_img_12.webp"
                   className="mx-auto"
                   alt="industry_12"
                   width={80}
@@ -240,7 +240,7 @@ const Industries = () => {
               <div className="flex flex-col items-center max-w-[139px] h-[196px] mx-auto p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_13.webp"
+                  src="../../public/images/webp/Industries_img_13.webp"
                   alt="industry_13"
                   width={80}
                   height={80}
@@ -255,7 +255,7 @@ const Industries = () => {
               <div className="flex flex-col items-center max-w-[139px] h-[196px] mx-auto p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_14.webp"
+                  src="../../public/images/webp/Industries_img_14.webp"
                   alt="industry_14"
                   width={80}
                   height={80}
@@ -270,7 +270,7 @@ const Industries = () => {
               <div className="flex flex-col items-center max-w-[139px] h-[196px] mx-auto p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_15.webp"
+                  src="../../public/images/webp/Industries_img_15.webp"
                   alt="industry_15"
                   width={80}
                   height={80}
@@ -285,7 +285,7 @@ const Industries = () => {
               <div className="flex flex-col items-center max-w-[139px] h-[196px] mx-auto p-2.5">
                 <Image
                   className="mx-auto"
-                  src="/images/webp/Industries_img_16.webp"
+                  src="../../public/images/webp/Industries_img_16.webp"
                   alt="industry_16"
                   width={80}
                   height={80}
