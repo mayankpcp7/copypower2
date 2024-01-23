@@ -7,21 +7,21 @@ const ConsultationCard = () => {
     <div className="max-w-[1920px] mx-auto">
       <div className="relative">
         <Image
-          height={664}
-          width={686}
-          className="absolute top-[-80%] start-[-20%] lg:top-[-100%] lg:start-[-30%]"
+          width={664}
+          height={686}
+          className="absolute top-[-80%] start-[-20%] lg:top-[-100%] lg:start-[-10%]"
           src="/images/webp/ellipse_67.webp"
         ></Image>
         <Image
           height={743}
           width={491}
-          className="absolute bottom-[-80%] xl:bottom-[-64%] end-[0%] xl:end-[-40%]"
+          className="absolute bottom-[-80%] xl:bottom-[0%] end-[0%] xl:end-[-0%]"
           src="/images/webp/ellipse_64.webp"
         ></Image>
         <Image
           width={1395}
           height={839}
-          className="absolute bottom-0 lg:bottom-[-100%] xl:bottom-[-60%] start-[0%]"
+          className="absolute bottom-0 lg:bottom-[-100%] xl:bottom-[-40%] start-[0%]"
           src="/images/webp/ellipse_68.webp"
         ></Image>
         <div className="pb-12 md:pb-[60px] lg:pb-20 xl:pb-[150px] mx-auto max-w-[1140px] px-3 relative z-[50]">

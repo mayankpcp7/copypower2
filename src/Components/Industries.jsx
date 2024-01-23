@@ -64,7 +64,7 @@ const Industries = () => {
                   height={80}
                 ></Image>
                 <p className="font-Matter text-[20px] font-semibold leading-[140%] text-center text-main pt-4">
-                  E-commerce
+                  E-comerce
                 </p>
               </div>
             </div>
