@@ -3,22 +3,7 @@ import Image from "next/image";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Industry_1 from "../../public/images/webp/Industries_img_1.webp";
-import Industry_2 from "../../public/images/webp/Industries_img_2.webp";
-import Industry_3 from "../../public/images/webp/Industries_img_3.webp";
-import Industry_4 from "../../public/images/webp/Industries_img_4.webp";
-import Industry_5 from "../../public/images/webp/Industries_img_5.webp";
-import Industry_6 from "../../public/images/webp/Industries_img_6.webp";
-import Industry_7 from "../../public/images/webp/Industries_img_7.webp";
-import Industry_8 from "../../public/images/webp/Industries_img_8.webp";
-import Industry_9 from "../../public/images/webp/Industries_img_9.webp";
-import Industry_10 from "../../public/images/webp/Industries_img_10.webp";
-import Industry_11 from "../../public/images/webp/Industries_img_11.webp";
-import Industry_12 from "../../public/images/webp/Industries_img_12.webp";
-import Industry_13 from "../../public/images/webp/Industries_img_13.webp";
-import Industry_14 from "../../public/images/webp/Industries_img_14.webp";
-import Industry_15 from "../../public/images/webp/Industries_img_15.webp";
-import Industry_16 from "../../public/images/webp/Industries_img_16.webp";
+import second from 'first'
 const Industries = () => {
   const settings = {
     dots: false,
