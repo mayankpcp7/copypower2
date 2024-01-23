@@ -2,7 +2,6 @@ import React from "react";
 import card_img_1 from "../../public/images/webp/caed_img_1.webp";
 import card_img_2 from "../../public/images/webp/card_img_2.webp";
 import card_img_3 from "../../public/images/webp/card_img_3.webp";
-import ellipse_56 from "/public/images/webp/ellipse_56.webp";
 import ellipse_61 from "/public/images/webp/ellipse_61.webp";
 import ellipse_59 from "/public/images/webp/ellipse_59.webp";
 import ellipse_57 from "/public/images/webp/ellipse_57.webp";
@@ -15,19 +14,27 @@ const ArticleSec = () => {
     <div className="mx-auto max-w-[1920px]">
       <div className="relative">
         <Image
+          width={1215}
+          height={800}
           className="absolute top-[-5%] sm:top-[-10%] md:top-[-14%] lg:top-[-30%] start-[-18%] md:start-[-20%]"
-          src={ellipse_56}
+          src="/images/webp/ellipse_56.webp"
         ></Image>
         <Image
+          width={563}
+          height={745}
           className="absolute top-[0%] sm:top-[-18%] md:top-[-20%] lg:top-[-50%] end-[-25%]"
           src={ellipse_61}
         ></Image>
         <Image className="absolute top-[0%] start-0" src={ellipse_59}></Image>
         <Image
+          width={435}
+          height={582}
           className="absolute top-[25%] sm:top-[15%] md:top-[10%] start-[-25%] md:start-[-30%]"
           src={ellipse_57}
         ></Image>
         <Image
+          height={759}
+          width={664}
           className="absolute top-[35%] md:top-[10%] end-[-30%]"
           src={ellipse_58}
         ></Image>
@@ -57,7 +64,7 @@ const ArticleSec = () => {
                   >
                     Read now
                   </a>
-                  <Image width={20} src={Arrow} alt="arrow"></Image>
+                  <Image wi dth={20} src={Arrow} alt="arrow"></Image>
                 </div>
               </div>
 
